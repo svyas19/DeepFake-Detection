@@ -13,7 +13,7 @@ The following image shows a comparison between DeepFake and Orignal Image, it is
 
 ## 2.Introduction</br></br>
 
-###How Deep Fakes are created?</br>
+### How Deep Fakes are created?</br>
 
 The initial step is to gather the face data, by finding the videos/images of the source person and target whose deepfake is to be created.</br>
 Faces are located and extracted from these data, it can be done using some of the pre-trained models for face detection such as MT-CNN, FaceNet, etc.</br>
