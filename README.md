@@ -26,7 +26,7 @@ Then, a common decoder is used to substitute the decoder for source and target.<
 
 ![Autoencoder 2](https://github.com/svyas19/DeepFake-Detection/blob/main/Auto-Encoder%202.png)</br>
 
-Why is Detection of DeepFake Important?</br></br>
+### 3. Why is Detection of DeepFake Important?</br></br>
 
 Researchers are considering DeeFakes as the most dangerous crime of the future as they have the ability to modify the information in the most believable way.</br>
 
@@ -48,7 +48,7 @@ Joe as President Trump </br>
 
 ![Project Overview](https://github.com/svyas19/DeepFake-Detection/blob/main/DeepFake%20Project%20Overview.png)</br>
 
-### Data Preprocessing:</br></br>
+### 4. Data Preprocessing:</br></br>
 
 The data was in form of videos and I needed to extract the faces from each video from the frames in the video:</br>
 
@@ -58,7 +58,7 @@ Using OpenCV, every 10th(considering computational power)  frame from each video
 ![Deep Fake1](https://github.com/svyas19/DeepFake-Detection/blob/main/Deepfake%201.png)</br>
 
 
-#### Extracting Faces from frames:</br>
+### Extracting Faces from frames:</br>
 Faces were extracted from the frames using two methods:</br>
 A)Using FaceNet Pretrained Model</br>
 B) OpenCV Deep Learning Model </br>
@@ -67,7 +67,7 @@ B) OpenCV Deep Learning Model </br>
 ![DeepFake 2](https://github.com/svyas19/DeepFake-Detection/blob/main/DeepFake%202.png)</br>
 
 
-CNN Architectures :</br>
+#### 5. CNN Architectures :</br>
 
 Different CNN Architectures were tested to see how they perform.</br>
 Following CNN Architectures were tested :</br>
@@ -75,7 +75,7 @@ Following CNN Architectures were tested :</br>
 ![CNN Architectures](https://github.com/svyas19/DeepFake-Detection/blob/main/CNN%20Architectures.png)</br>
 
 
-Ensemble</br></br>
+### 6. Ensemble</br></br>
 
 MiniVGGNet, LeNet, and ResNet showed relatively high accuracy from others after tuning the hyperparameters and trying different combinations of architectures.</br>
 
@@ -84,7 +84,7 @@ Different Ensemble learning tested with different Nets:</br>
 ![Ensembles](https://github.com/svyas19/DeepFake-Detection/blob/main/Ensembles.png)</br>
 
 
-### Final Model Results</br>
+### 7.Final Model Results</br>
 Highest Accuracy : 99%</br>
 Net: LeNet</br>
 Kernel Regularizer L1 = le-10 </br>
@@ -97,7 +97,7 @@ Stride : (2,2)</br></br>
 
 ![Highest Accuracy](https://github.com/svyas19/DeepFake-Detection/blob/main/Highest_accuracy.png)</br></br>
 
-Model Deployment</br>
+### 8. Model Deployment</br>
 
 Research shows that 90% of the developed models never get deployed.</br>
 Considering this, the model was deployed as a web application using Flask, Ngrok, HTML, and CSS.</br></br>
