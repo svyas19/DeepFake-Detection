@@ -43,12 +43,12 @@ Deep fakes are not just limited to videos, audio can also be manipulated too.</b
 Some Real-World implementations of DeepFakes:</br>
 
 President Barack Obama Speech </br>
-Tom Cruise as Iron Man</br></br>
+Tom Cruise as Iron Man</br>
 Joe as President Trump </br>
 
 ![Project Overview](https://github.com/svyas19/DeepFake-Detection/blob/main/DeepFake%20Project%20Overview.png)</br>
 
-###Data Preprocessing:</br></br>
+### Data Preprocessing:</br></br>
 
 The data was in form of videos and I needed to extract the faces from each video from the frames in the video:</br>
 
