@@ -1,5 +1,8 @@
 # DeepFake-Detection
 
+
+![Obama Deep Fake](https://github.com/svyas19/DeepFake-Detection/blob/main/Obama%20Deep%20Fake.gif)</br>
+
 ## 1. Objective & DeepFakes</br></br>
 
 The objective of this project is to detect if anything is wrong with a video or image i.e. to classify between “REAL” and “FAKE”.</br> 
