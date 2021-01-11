@@ -2,7 +2,7 @@
 
 
 ![Obama Deep Fake](https://github.com/svyas19/DeepFake-Detection/blob/main/Obama%20Deep%20Fake.gif)</br>
-\t</t>Real</t></t></t></t>Fake
+&nbsp;&nbsp;Real&nbsp;&nbsp;&nbsp;&nbsp;Fake
 
 ## 1. Objective & DeepFakes</br></br>
 
